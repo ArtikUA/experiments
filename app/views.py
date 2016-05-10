@@ -13,6 +13,7 @@ class MyView(TemplateView):
         context['foo'] = article_id
         return context
 
+mistake
 
 class RedView(RedirectView):
     def get_redirect_url(self, id):
