@@ -16,5 +16,5 @@ class MyView(TemplateView):
 
 class RedView(RedirectView):
     def get_redirect_url(self, id):
-        id = int(id)
+        id = id
         return reverse('article-detail', kwargs={'article_id': id})
